@@ -1,8 +1,13 @@
 ## SGA - Schedule Global Audit (Front)
 
+### Before:
+
+Clone the SGA REST Api and deploy it following its README file instructions:
+`https://github.com/o-mago/sga-back.git`
+
 ### Preparing the environment:
 
-1- Clone the repository: `$ git clone https://github.com/o-mago/sga-back.git`
+1- Clone the repository: `$ git clone https://github.com/o-mago/sga-front.git`
 
 2- Install the dependencies (go to the root folder): `$ npm install`
 
