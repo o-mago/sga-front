@@ -1,13 +1,8 @@
 ## SGA - Schedule Global Audit (Front)
 
-### Before:
-
-Clone the SGA REST Api and deploy it following its README file instructions:
-`https://git.embraer.com.br/scm/~abedesch/sga-web.git`
-
 ### Preparing the environment:
 
-1- Clone the repository: `$ git clone https://git.embraer.com.br/scm/~abedesch/sga-app.git`
+1- Clone the repository: `$ git clone https://github.com/o-mago/sga-back.git`
 
 2- Install the dependencies (go to the root folder): `$ npm install`
 
@@ -57,4 +52,4 @@ These are the routes inside SGA:
 
 #### Author
 
-Alexandre Cabral Bedeschi - alexandre.bedeschi@embraer.com.br
+Alexandre Cabral Bedeschi - alexandre.bedeschi@engenharia.ufjf.br
