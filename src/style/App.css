@@ -1,0 +1,195 @@
+:root {
+	--azul-claro: rgb(0,91,175);
+	--azul-embraer: rgb(16,6,144);
+	--azul-escuro: rgb(10,26,92);
+	--branco: rgb(255,255,255);
+	--cinza-01: rgb(222,233,239);
+	--cinza-02: rgb(163,181,191);
+	--cinza-03: rgb(92,108,116);
+	--cinza-04: rgb(30,49,55);
+	--Aviação-Comercial: rgb(252,195,23);
+	--Aviação-Executiva: rgb(130,167,199);
+	--Defesa-e-Segurança: rgb(219,98,0);
+	--Serviços-e-Suporte: rgb(0,152,152);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+* {
+	font-family: "Roboto", sans-serif!important;
+}
+
+/***********************Header Content***********************/
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 16px!important;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+#main {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	min-height: 1000px;
+}
+
+.animate-fadein {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s;
+}
+
+.animate-fadeout {
+	position: relative;
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 1s;
+	pointer-events: none;
+	animation-name: animatetop;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes animatebottom { 
+	from{ bottom:-100px; opacity:0 } 
+	to{ bottom:0; opacity:1 }
+}
+
+@keyframes animatetop { 
+	from{ bottom:0; opacity:1 } 
+	to{ bottom:-100px; opacity:0 }
+}
+
+.header {
+	flex: 1;
+	padding:10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	max-height: 10%;
+	background: var(--azul-escuro);
+	box-shadow: 0px 3px 4px rgba(57,63,72,0.3);
+    z-index: 10;
+}
+
+.logo_img {
+	flex: 1;
+	height: 100%;
+	object-fit: contain;
+}
+
+.title {
+	color: white!important;
+	flex: 5;
+	text-align: center;
+	font-size: 35px;
+	color: #4a4a4a;
+}
+
+#lastUpdateInfo {
+	flex: 1;
+	text-align: end;
+	align-self: flex-end;
+	color: #ffffff;
+}
+
+
+/*************************************************************/
+
+/********* LOADER ************/
+
+#loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border: 12px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 12px solid var(--azul-escuro);
+	width: 80px;
+	height: 80px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/********* REWRITING BOOTSTRAP CLASSES ************/
+
+.filterable {
+    margin-top: 15px;
+}
+
+.main-page {
+	display: flex;
+	flex-flow: row;
+	background-color: #fbfbfb;
+	height: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	flex: 10;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.box {
+	background-color: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 2px 6px rgba(57,63,72,0.3);
+	display: flex;
+	flex-direction: column;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+	border-radius: 6px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 6px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}

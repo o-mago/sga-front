@@ -1,0 +1,14 @@
+#drillDownPanel {
+	height:820px;
+  	overflow-y:scroll;
+}
+
+.close-icon {
+	vertical-align: middle!important;
+}
+
+.panel {
+	display: flex;
+	flex-direction: column;
+	max-height: 95%;
+}

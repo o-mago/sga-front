@@ -1,0 +1,64 @@
+.dropdown-year {
+	display: flex;
+	align-items: center;
+	flex-flow: row nowrap;
+	flex: 1 0;
+}
+
+.year-span {
+	flex: 1 0;
+}
+
+.dropdown {
+	display: flex;
+	flex-flow: row;
+	margin-bottom: 20px;
+	flex: 1;
+}
+.button-year {
+	padding: 5px 0!important;
+}
+
+.button-year:hover {
+	background-color: lightgray!important;
+}
+
+.dropdown-menu {
+	display: inline!important;
+	cursor: pointer;
+	padding: 0;
+	text-align: center;
+}
+
+.link {
+	cursor: pointer;
+}
+
+.dropdown-export {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.caret-right {
+	
+}
+
+.scrollable-menu {
+    max-height: 300px;
+	overflow-y: auto;
+	width: 100%;
+}
+
+#btnExport {
+	margin-left: 2%;
+    margin-bottom: 20px;
+    flex: 0;
+	background: var(--azul-escuro);
+	color: #ffffff;
+	display: flex;
+}
+
+.download-button {
+	fill: #ffffff;
+}

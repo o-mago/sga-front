@@ -1,0 +1,72 @@
+.panel-body {
+	display: flex;
+	flex-flow: row wrap;
+	overflow-y: auto;
+}
+
+.panel-default input {
+	position: relative;
+    margin: 2px 2px;
+    height: 30px;
+    line-height: 10px;
+	box-sizing: border-box;
+}
+
+.btn-primary {
+	background-color: var(--azul-claro)!important;
+	flex: 1 0 40%;
+	box-shadow: 0 2px 6px rgba(57,63,72,0.3);
+}
+
+.btn-primary:active {
+	background-color: var(--azul-claro)!important;
+}
+
+.btn-primary:hover {
+	background-color: var(--azul-embraer)!important;
+}
+
+.btn-adm-clear {
+	background-image: url("../images/clear.svg");
+}
+
+.btn-disabled {
+	outline: none!important;
+    border: 0px!important;
+	background-color: #696969!important;
+	/* animation-name: animateDisable;
+	animation-duration: 1s;
+	animation-fill-mode: forwards; */
+}
+
+.btn-not-available {
+	flex: 1 0 40%;
+	outline: none!important;
+    border: 0px!important;
+	background-color: darkgray!important;
+	cursor: not-allowed!important;
+	color: white;
+}
+
+.btn-not-available:hover {
+	color: white!important;
+}
+
+.btn-not-available:focus {
+	color: white!important;
+}
+
+.animate-fadeout {
+	position: relative;
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 1s;
+	pointer-events: none;
+	animation-name: animatetop;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes animateDisable { 
+	from{ background-color: var(--azul-claro)!important } 
+	to{ background-color: #696969!important }
+}

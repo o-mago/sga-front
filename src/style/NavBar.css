@@ -1,0 +1,27 @@
+#buttons_section {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	margin-left: 0px;
+	flex: 1;
+	margin: 10px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 16px!important;
+}
+
+.panel-default {
+	max-height: 40%;
+	margin-bottom: 20px;
+}
+
+.panel-heading {
+	background-color: var(--azul-escuro)!important;
+	color: #FFFFFF!important;
+	display: flex;
+    flex-flow: row nowrap;
+	justify-content: space-between;
+    align-items: center;
+}

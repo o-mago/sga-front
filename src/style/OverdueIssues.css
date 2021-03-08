@@ -1,0 +1,27 @@
+#errorTableBody {
+	background-color: var(--azul-claro)!important;
+	color: #FFFFFF!important;
+	align-items: center;
+	width: 100%;
+	padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#errorTableHeadText {
+	width: 100%;
+}
+
+#errorTableBodyText {
+	width: 100%;
+}
+
+.panel-heading {
+	background-color: var(--azul-escuro)!important;
+	color: #FFFFFF!important;
+	display: flex;
+    flex-flow: row nowrap;
+	justify-content: space-between;
+    align-items: center;
+}

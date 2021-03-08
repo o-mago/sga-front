@@ -1,0 +1,110 @@
+:root {
+	--azul-claro: rgb(0,91,175);
+	--azul-embraer: rgb(16,6,144);
+	--azul-escuro: rgb(10,26,92);
+	--branco: rgb(255,255,255);
+	--cinza-01: rgb(222,233,239);
+	--cinza-02: rgb(163,181,191);
+	--cinza-03: rgb(92,108,116);
+	--cinza-04: rgb(30,49,55);
+	--Aviação-Comercial: rgb(252,195,23);
+	--Aviação-Executiva: rgb(130,167,199);
+	--Defesa-e-Segurança: rgb(219,98,0);
+	--Serviços-e-Suporte: rgb(0,152,152);
+}
+
+* {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+/***********************Header Content***********************/
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 16px!important;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+#main {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.animate {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s;
+}
+
+.main-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.logo_img_update {
+	flex: 1;
+	height: 150px;
+	object-fit: contain;
+}
+
+#loader_update {
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid var(--azul-escuro);
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader_container {
+	flex: 1;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px;
+}
+
+.logo-loader {
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+
+.info_update {
+    font-size: 35px;
+    color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.update-info {
+    color: black;
+	text-align: center;
+}
+
+.done_img {
+    width: 150px;
+    height: 150px;
+}
