@@ -2,7 +2,7 @@
   "name": "sga-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://qualcorp.emb/sga-app",
+  "homepage": "http://homepage/sga-app",
   "dependencies": {
     "body-parser": "^1.19.0",
     "enzyme": "^3.10.0",
