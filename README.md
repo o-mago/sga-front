@@ -57,4 +57,4 @@ These are the routes inside SGA:
 
 #### Author
 
-Alexandre Cabral Bedeschi - alexandre.bedeschi@engenharia.ufjf.br
+Alexandre Cabral Bedeschi - alexandre.cabral@engenharia.ufjf.br
